@@ -30,6 +30,7 @@ DEBUG = True
 # Application definition
 
 INSTALLED_APPS = [
+    'pages.apps.PagesConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
