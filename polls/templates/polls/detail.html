@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
+{% block title %}
+  {{ question.question_text }} | Vote Your Way
+{% endblock %}
+
 {% block content %}
   <h1>{{ question.question_text }}</h1>
 
