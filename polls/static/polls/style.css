@@ -4,6 +4,12 @@
   border-radius: 0;
 }
 
+.navbar-brand {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 28px;
+  word-spacing: -5px;
+}
+
 /* General Styles */
 
 li a {
@@ -14,10 +20,34 @@ body {
   background: white url("images/background.jpg") no-repeat right bottom;
   background-size: cover;
   min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
 }
 
 .homepage-body {
   background: white url("images/desk.jpg") no-repeat right bottom;
   background-size: cover;
   min-height: 100vh;
+}
+
+.homepage-text {
+  margin: auto;
+  max-width: 450px;
+  font-size: 4.5rem;
+  font-family: 'Covered By Your Grace', cursive;
+  margin-top: 3rem;
+  text-align: center;
+  line-height: 5.2rem;
+}
+
+.homepage-text-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
