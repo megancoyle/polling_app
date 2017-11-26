@@ -1,7 +1,23 @@
+/* Navigation */
+
+.navbar {
+  border-radius: 0;
+}
+
+/* General Styles */
+
 li a {
   color: green;
 }
 
 body {
-    background: white url("images/background.gif") no-repeat right bottom;
+  background: white url("images/background.jpg") no-repeat right bottom;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.homepage-body {
+  background: white url("images/desk.jpg") no-repeat right bottom;
+  background-size: cover;
+  min-height: 100vh;
 }
