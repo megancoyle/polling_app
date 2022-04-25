@@ -25,9 +25,11 @@ Quick start
 
 4. Activate the environment: `. venv/bin/activate`
 
-5. Run `python3 manage.py migrate` to create the polls models.
+5. Install the requirements: `pip install -r requirements.txt`
 
-6. Start the development server, `python3 manage.py runserver` and visit http://127.0.0.1:8000/admin/
+6. Run `python3 manage.py migrate` to create the polls models.
+
+7. Start the development server, `python3 manage.py runserver` and visit http://127.0.0.1:8000/admin/
    to create a poll (you'll need the Admin app enabled).
 
-7. Visit http://127.0.0.1:8000/polls/ to participate in the poll.
+8. Visit http://127.0.0.1:8000/polls/ to participate in the poll.
